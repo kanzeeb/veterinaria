@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/veterinaria/static/css/main.fd0d94b5.css",
+    "main.js": "/veterinaria/static/js/main.09c77a67.js",
+    "static/js/787.d8c21dcf.chunk.js": "/veterinaria/static/js/787.d8c21dcf.chunk.js",
+    "static/media/logo-sm.svg": "/veterinaria/static/media/logo-sm.ecaba536636550ff3ec5048f3c66bfb7.svg",
+    "static/media/savings.svg": "/veterinaria/static/media/savings.497b3354edbae9f649b86e5389fc1e58.svg",
+    "static/media/dog_walking.svg": "/veterinaria/static/media/dog_walking.344e609c4d04df0f4126c6215595fbf5.svg",
+    "index.html": "/veterinaria/index.html",
+    "main.fd0d94b5.css.map": "/veterinaria/static/css/main.fd0d94b5.css.map",
+    "main.09c77a67.js.map": "/veterinaria/static/js/main.09c77a67.js.map",
+    "787.d8c21dcf.chunk.js.map": "/veterinaria/static/js/787.d8c21dcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd0d94b5.css",
+    "static/js/main.09c77a67.js"
+  ]
+}
