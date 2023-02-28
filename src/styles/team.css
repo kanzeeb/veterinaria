@@ -1,0 +1,30 @@
+.team-gallery {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 2.4rem;    
+    row-gap: 1.6rem;
+}
+.mrgB-60 {
+    margin-bottom: 0;
+}
+.team-gallery img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+.center-gallery {
+    margin: 3rem auto;
+}
+
+@media screen and (min-width: 800px) {
+    .team-gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    .mrgB-60 {
+        margin-bottom: 14rem;
+    }
+}

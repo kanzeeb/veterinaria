@@ -1,0 +1,108 @@
+.flex-services {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 4.4rem;
+}
+
+.card-services {
+    border-radius: 2rem;
+    width: 100%;
+    background: rgba(54,194,205,1);
+    box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.8);
+    padding: 2rem 1.8rem;
+}
+.card-services p{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    text-align: justify;
+    color: azure;
+    padding: 0 2rem;
+}
+.card-services p ul{
+    padding-left: 2rem;
+}
+
+.bg-pet {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://picsum.photos/id/1062/1080/720');
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-pet h1 {
+font-size: 4.6rem;
+text-align: center;
+color: azure;
+text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+position: relative;
+top: 50%;
+}
+
+.icon-animals {
+    font-size: 3rem;
+    color: aquamarine;
+}
+
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.align-titles {
+    display: flex;
+    column-gap: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.txt-big {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: azure;
+}
+.mrgT-30 {
+    margin-top: 3rem;
+}
+.mrgB-60 {
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 800px) {
+    .flex-services {
+        flex-direction: row;
+        column-gap: 1.4rem;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .card-services {
+        width: 44rem;
+        height: 60.5rem;
+    }
+    .card-services p{
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 3.3rem;
+        text-align: justify;
+        color: azure;
+        padding: 0 2rem;
+    }
+    .card-services p ul{
+        padding-left: 2rem;
+    }
+    
+    .icon-animals {
+        font-size: 4rem;
+    } 
+    .mrgT-30 {
+        margin-top: 4.8rem;
+    }
+    .mrgB-60 {
+        margin-bottom: 13rem;
+    }
+}

@@ -1,0 +1,90 @@
+.carousel {
+    width: 45rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inner {
+    white-space: nowrap;
+    transition: transform0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.slider-img {
+    width: 100%;    
+}
+.slider-text-primary {
+    font-size: 2.2rem;
+    color: red;
+    font-weight: 800;
+}
+.carousel-item {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 32rem;
+    background: rgba(220, 220, 220, 0.7);    
+    z-index: -10;
+}
+.carousel-item-text {
+    font-size: 2rem;
+    padding: 0 2rem;
+    white-space: normal;
+    color: #333;    
+}
+.carousel-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button-arrow {
+    font-size: 4rem;
+    color: thistle;
+    cursor: pointer;
+}
+.radio-button {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    border: 1px solid #333;
+}
+.indicator-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.indicator-symbol {
+    background: #f1be32;
+}
+.indicator-symbol-active {
+    background: #fff;
+}
+.box-arrow {
+    background: none;
+    border: none;
+}
+
+
+.card {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 35rem;
+    height: 52rem;
+    object-fit: cover;
+    border: 1px solid #333;
+}
+
+.card-left {
+    transform: translateX((-1255) scale(0.7));
+    transition: 500ms;
+    opacity: 0.3;
+}
+.card-right {
+    transform: translateX((1255) scale(0.7));
+    transition: 500ms;
+    opacity: 0.3;
+}

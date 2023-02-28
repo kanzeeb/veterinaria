@@ -1,0 +1,54 @@
+.paws {
+    font-size: 4rem;
+    color: darkorchid;
+    transform: rotate(90deg);
+}
+
+/* .paws-a {
+    animation: fadein 5s ease-in infinite;
+}*/
+.paws-b {
+    animation: pulse 8s linear infinite;
+    animation-delay: 2.5s;
+    opacity: 0;
+}
+.paws-c {
+    animation: pulse 8s linear infinite;
+    animation-delay: 3.5s;
+    opacity: 0;
+} 
+.paws-a {
+  animation: pulse 8s linear infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}
+
+
+@keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+  
+    25% {
+      opacity: 0.5;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    75% {
+      opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+  }

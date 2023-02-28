@@ -1,0 +1,52 @@
+.hero-container {
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(95,249,188);
+    background: linear-gradient(232deg, rgba(95,249,188,1) 20%, rgba(240,240,240,1) 100%);
+}
+.display-promo {
+    width: 85%;
+    margin: 0 auto;    
+    height: auto;
+}
+.hero-pug {
+    width: 100%;
+}
+
+.icon-animals {
+    font-size: 4rem;
+    color: rgb(150, 108, 240);
+}
+
+.hero-logo {
+    width: 22rem;
+    height: 20rem;
+} 
+
+@media screen and (min-width: 800px) {
+    .hero-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+        flex-direction: row-reverse;
+        background: rgb(95,249,188);
+        background: linear-gradient(232deg, rgba(95,249,188,1) 20%, rgba(240,240,240,1) 100%);
+    }
+    .display-promo {
+        width: 85%;
+        margin: 0 auto;    
+        height: auto;
+    }
+    
+    .icon-animals {
+        font-size: 4rem;
+        color: rgb(150, 108, 240);
+    }
+    
+    .hero-logo {
+        width: 40rem;
+        height: 38rem;
+      }
+}

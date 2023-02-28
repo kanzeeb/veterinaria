@@ -1,0 +1,14 @@
+.slider-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 32rem;
+    background: rgba(220, 220, 220, 0.7);
+}
+.item-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid cornflowerblue;
+}

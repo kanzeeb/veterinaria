@@ -1,0 +1,113 @@
+.navbar {
+  align-items: center;
+  background-color: var(--color-head);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  padding: 2rem 0;
+}
+
+.navbar-items {    
+  display: block;    
+}
+
+.navbar-items > h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 2.4rem;
+    text-align: justify;
+    color: #2b2c2c;
+    font-family: 'Epilogue', sans-serif;
+    text-transform: capitalize;
+}
+
+.img-logo {
+    width: 16rem;
+}
+
+
+.circle-sketch-highlight{
+    position:relative;
+    left:0.5em;
+    font-family: Libre Franklin;
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .circle-sketch-highlight:hover:before{
+    border-color:#5c5fbf;
+    border-radius:50%;
+    border-right-color:transparent;
+    border-style:solid;
+    border-width:2px;
+    content:"";
+    height:1em;
+    left:-0.5em;
+    opacity:0.7;
+    padding:0.1em 0.45em;
+    position:absolute;
+    top:-0.1em;
+    transform:rotate(4deg);
+    width:100%;
+    z-index:-1;
+  }
+  .circle-sketch-highlight:hover:after{
+    border-color:#5c5fbf;
+    border-left-color:transparent;
+    border-radius:50%;
+    border-style:solid;
+    border-top-color:transparent;
+    border-width:2px;
+    content:"";
+    height:1em;
+    left:-0.5em;
+    opacity:0.7;
+    padding:0.1em 0.45em;
+    position:absolute;
+    top:0.1em;
+    transform:rotate(-1deg);
+    width:100%;
+    z-index:-1;
+  }
+
+.icon-paw {
+  font-size: 4rem;
+  color: darkorange;
+  cursor: pointer;
+} 
+
+/* Navbar */
+
+@media screen and (min-width: 800px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+  }
+  .navbar-items {
+    align-items: flex-end;
+    column-gap: 2.6rem;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+}
+
+}
+/* Navbar end*/
+
+/* Items */
+.item__hide {
+  display: none;
+}
+.item__deskhide {
+  display: block;
+}
+@media screen and (min-width: 800px) {
+  .item__hide {
+    display: block;
+  }
+  .item__deskhide {
+    display: none;
+  }
+}
+/* Items end */
