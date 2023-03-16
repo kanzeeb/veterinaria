@@ -13,11 +13,12 @@
 }
 .flex-items-social {
     text-align: center;
-    color: #333;
+    color: #6d6def;
 }
 .icons-social {
-    color: aquamarine;
+    color: #6d6def;
     font-size: 5rem;
+    cursor: pointer;
 }
 
 .contact-container {
@@ -77,7 +78,7 @@
         row-gap: 1rem;
     }
     .icons-social {
-        color: aquamarine;
+        color: #6d6def;
         font-size: 5rem;
     }
     

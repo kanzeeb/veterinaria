@@ -10,9 +10,13 @@ function Footer() {
             <div className="footer-container">
                 <div className='flex-items-social'>
                     <h2>Siguenos en nuestras redes sociales</h2>
-                    <FaFacebook className='icons-social'/>
+                    <a href="https://www.facebook.com/drmascotacdmx?mibextid=LQQJ4d" target="_blank">
+                        <FaFacebook className='icons-social'/>
+                    </a>
                     <p></p>
-                    <BsInstagram className='icons-social'/>
+                    <a href="https://www.instagram.com/dr._mascota/" target="_blank">
+                        <BsInstagram className='icons-social'/>
+                    </a>
                 </div>            
                 <div className="contact-container">
                     <h2>contactanos</h2> 

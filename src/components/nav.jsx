@@ -28,21 +28,21 @@ function Nav () {
         <MyLogo className="logo"/>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
-            <IoIosPaw className='icon-paw'/> 
+            <IoIosPaw className='icon-paw'/> menu
         </div>
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li className='item-txt'>
-            <Link to="/inicio">inicio</Link>
+            <Link to="/inicio" onClick={handleShowNavbar}>inicio</Link>
             </li>
             <li className='item-txt'>
-            <Link to="/servicios">servicios</Link>
+            <Link to="/servicios" onClick={handleShowNavbar}>servicios</Link>
             </li>
             <li className='item-txt'>
-            <Link to='/nuestro-equipo'>nuestro equipo</Link>       
+            <Link to='/nuestro-equipo' onClick={handleShowNavbar}>nuestro equipo</Link>       
             </li>
             <li className='item-txt'>
-            <Link to="/galeria">galería</Link>
+            <Link to='/galeria' onClick={handleShowNavbar}>galería</Link>
             </li>
             {/* <li className='item-txt'>
             <h2>ubicación</h2>
