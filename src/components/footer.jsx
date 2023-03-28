@@ -23,7 +23,7 @@ function Footer() {
                         Teléfono &nbsp; <BsPhoneVibrate /> &nbsp;
                         <a href="tel:+525540555870">5522272892</a><br/>
                         WhatsApp &nbsp; <FaWhatsapp /> &nbsp;
-                        <a href="https://wa.me/5540555870?text=Hola%20mensaje%20de%20Drmascota%20...">
+                        <a href="https://wa.me/5578862250?text=Hola%20mensaje%20de%20Drmascota%20...">
                             5578862250
                         </a>&nbsp;<br/>
                         <a href="mailto:amevet.cooperativa@gmail.com">
