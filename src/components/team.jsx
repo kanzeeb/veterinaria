@@ -6,26 +6,33 @@ function Team() {
         <>
             <div className='mrgB-60'>
                 <div className='team-gallery'>
-                    <div className='item-team'>
-                    <img src="https://i.postimg.cc/R0DHN50S/PHOTO-2023-02-24-16-08-11.jpg" alt="" />
+                    <div className='item-team team1'>                        
+                        <div>
+                            <p>
+                                Harum magni pariatur laborum officia aliquid voluptatem, cupiditate in voluptatibus perferendis commodi dicta sit, totam asperiores illo modi fugiat dolorem aspernatur molestias possimus, quo impedit soluta sequi omnis itaque. Distinctio?
+                            </p>
+                        </div>                        
                     </div>
-                    <div className='item-team'>
-                    <div><img src="https://i.postimg.cc/V60btGSj/PHOTO-2023-02-24-16-07-25.jpg" alt="" /></div>
+                    <div className='item-team team2'>                       
+                        <p>
+                            Harum magni pariatur laborum officia aliquid voluptatem, cupiditate in voluptatibus perferendis commodi dicta sit, totam asperiores illo modi fugiat dolorem aspernatur molestias possimus, quo impedit soluta sequi omnis itaque. Distinctio?
+                        </p>                       
                     </div>
-                    <div className='item-team'>
-                    <div><img src="https://i.postimg.cc/Gtk874xt/PHOTO-2023-02-24-16-06-48.jpg" alt="" /></div>
+                    <div className='item-team team3'>                        
+                        <p>
+                            Harum magni pariatur laborum officia aliquid voluptatem, cupiditate in voluptatibus perferendis commodi dicta sit, totam asperiores illo modi fugiat dolorem aspernatur molestias possimus, quo impedit soluta sequi omnis itaque. Distinctio?
+                        </p>                       
                     </div>
-                    <div className='item-team'>
-                    <img src="https://i.postimg.cc/T185JVmB/PHOTO-2023-02-24-16-07-54.jpg" alt="" />
+                    <div className='item-team team4'>                       
+                        <p>
+                            Harum magni pariatur laborum officia aliquid voluptatem, cupiditate in voluptatibus perferendis commodi dicta sit, totam asperiores illo modi fugiat dolorem aspernatur molestias possimus, quo impedit soluta sequi omnis itaque. Distinctio?
+                        </p>                       
                     </div>
-                    <div className='item-team'>
-                    <img src="https://i.postimg.cc/L4f16WFS/PHOTO-2023-02-24-16-07-06.jpg" alt="" />
+                    <div className='item-team team5'>                       
+                        <p>
+                            Harum magni pariatur laborum officia aliquid voluptatem, cupiditate in voluptatibus perferendis commodi dicta sit, totam asperiores illo modi fugiat dolorem aspernatur molestias possimus, quo impedit soluta sequi omnis itaque. Distinctio?
+                        </p>                        
                     </div>
-                    {/* <img src="https://i.postimg.cc/Gtk874xt/PHOTO-2023-02-24-16-06-48.jpg" alt="" />
-                    <img src="https://i.postimg.cc/V60btGSj/PHOTO-2023-02-24-16-07-25.jpg" alt="" />
-                    <img src="https://i.postimg.cc/R0DHN50S/PHOTO-2023-02-24-16-08-11.jpg" alt="" />
-                    <img src="https://i.postimg.cc/T185JVmB/PHOTO-2023-02-24-16-07-54.jpg" alt="" />
-                    <img src="https://i.postimg.cc/L4f16WFS/PHOTO-2023-02-24-16-07-06.jpg" alt="" /> */}
                 </div>
             </div>        
         </>

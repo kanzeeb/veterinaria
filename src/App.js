@@ -6,13 +6,14 @@ import Services from './components/services';
 import Gallery from './components/gallery';
 import Home from './components/home'
 import Team from "./components/team";
-import Banner from "./components/banner";
+import BannerPromos from "./components/banProm";
 //navigate is not recomended when using UseEffect
 function App() {
   return (
     <>   
       <BrowserRouter>
       <Nav />  
+      <BannerPromos />
         <Routes>          
           <Route path="/" element={<Navigate to ="/inicio" />}/>
           <Route path="/inicio" exact element={<Home />} />

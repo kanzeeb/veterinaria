@@ -13,7 +13,6 @@ function Footer() {
                     <a href="https://www.facebook.com/drmascotacdmx?mibextid=LQQJ4d" target="_blank">
                         <FaFacebook className='icons-social'/>
                     </a>
-                    <p></p>
                     <a href="https://www.instagram.com/dr._mascota/" target="_blank">
                         <BsInstagram className='icons-social'/>
                     </a>
@@ -22,9 +21,9 @@ function Footer() {
                     <h2>contactanos</h2> 
                     <p>
                         Teléfono &nbsp; <BsPhoneVibrate /> &nbsp;
-                        5522272892 <br/>
+                        <a href="tel:+525540555870">5522272892</a><br/>
                         WhatsApp &nbsp; <FaWhatsapp /> &nbsp;
-                        <a href="https://wa.me/5547823179?text=Hola%20tengo%20una%20emergencia%20...">
+                        <a href="https://wa.me/5540555870?text=Hola%20mensaje%20de%20Drmascota%20...">
                             5578862250
                         </a>&nbsp;<br/>
                         <a href="mailto:amevet.cooperativa@gmail.com">
@@ -35,16 +34,6 @@ function Footer() {
                 </div> 
                 <div className='flex-items-social'>
                     <FaMapSigns className='icons-social'/>
-                    {/* <h2>nuestra ubicación: <br/> Jorge Negrete 12, Gustavo A. Madero, 07280 CDMX</h2> */}
-                    {/* <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.3457766001366!2d-99.14458208507617!3d19.52676314272277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f7e886c8cbbb%3A0x606a61a106536720!2sClinica%20Veterinaria%20Dr.%20Mascota%20Pet%20Care!5e0!3m2!1ses!2smx!4v1677040786694!5m2!1ses!2smx" 
-                        width="200" 
-                        height="100" 
-                        style={{ border: "0"}} 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe> */}
                     <div><img src="https://i.postimg.cc/9FFnBqQ1/QRlocation.jpg" className='img-qr' alt="" /></div>
                 </div>               
             </div>

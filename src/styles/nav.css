@@ -67,18 +67,25 @@
 /* My styles */
 
 .item-txt {
-    font-size: 2rem;
-    line-height: 2rem;
-    font-weight: 800;
-    color: #574c4c;
-    text-transform: capitalize;
-    text-align: justify;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 800;
+  color: #574c4c;
+  text-transform: capitalize;
+  text-align: justify;
 }
 .icon-paw {
   font-size: 4rem;
   color: darkorange;
   cursor: pointer;
-} 
+}
+
+.menu-text {
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: darkorange;
+}
 /* My styles end*/
 
 @media (max-width: 800px) {
@@ -89,8 +96,12 @@
 
 @media (max-width: 800px) {
   .menu-icon {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     cursor: pointer;
+    padding-top: 1.6rem;
   }
 
   .nav-elements {
@@ -119,10 +130,10 @@
     margin-top: 22px;
   }
   .navbar {
-    height: 7rem;      
+    height: 12rem;      
   }
   .logo {
-    width: 14rem;
-    height: 13rem;
+    width: 17rem;
+    height: 15rem;
   } 
 }

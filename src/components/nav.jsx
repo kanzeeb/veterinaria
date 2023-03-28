@@ -27,8 +27,13 @@ function Nav () {
         <div>
         <MyLogo className="logo"/>
         </div>
-        <div className="menu-icon" onClick={handleShowNavbar}>
-            <IoIosPaw className='icon-paw'/> menu
+        <div className="menu-icon menu-align" onClick={handleShowNavbar}>
+          <IoIosPaw className='icon-paw'/> 
+          <div>
+            <p className="menu-text">
+              menu
+            </p>
+          </div>
         </div>
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
