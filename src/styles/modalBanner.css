@@ -1,0 +1,47 @@
+.modal-container {
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 4%;
+    border-radius: 1.4rem;
+}
+.modal-container img {
+    width: 100%;
+    border-radius: 1.4rem;
+}
+.modal-btn {
+    background: none;
+    border: none;
+    color: #966CF0;
+    font-size: 4rem;    
+    position: absolute;
+    left: 90%;
+    top: -11%;
+    margin: 0;        
+}
+
+@media and screen (min-width: 800px) {
+    .modal-container {
+        width: 80rem;
+        background: white;
+        position: absolute;
+        left: 25%;
+        top: 12%;
+        border-radius: 1.4rem;
+    }
+    .modal-container img {
+        width: 100%;
+        border-radius: 1.4rem;
+    }
+    .modal-btn {
+        background: none;
+        border: none;
+        color: #966CF0;
+        font-size: 6rem;    
+        position: absolute;
+        left: 94%;
+        top: -6%;
+        margin: 0;        
+    }
+    
+}

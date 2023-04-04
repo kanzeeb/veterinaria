@@ -7,13 +7,14 @@ import Gallery from './components/gallery';
 import Home from './components/home'
 import Team from "./components/team";
 import BannerPromos from "./components/banProm";
+import ModalBanner from "./components/modalBanner";
 //navigate is not recomended when using UseEffect
 function App() {
   return (
     <>   
       <BrowserRouter>
       <Nav />  
-      <BannerPromos />
+      <ModalBanner />
         <Routes>          
           <Route path="/" element={<Navigate to ="/inicio" />}/>
           <Route path="/inicio" exact element={<Home />} />

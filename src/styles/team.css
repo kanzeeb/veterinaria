@@ -9,7 +9,7 @@
 }
 
 .team-gallery .item-team {
-    height: 36rem;
+    height: 50rem;
     border-radius: 2rem;
 }
 .team1 {
@@ -25,22 +25,44 @@
     background-image: url('https://i.postimg.cc/T185JVmB/PHOTO-2023-02-24-16-07-54.jpg');
 }
 .team5 {
-    background-image: url('https://i.postimg.cc/L4f16WFS/PHOTO-2023-02-24-16-07-06.jpg');
+    background-image: url('https://i.postimg.cc/Y08n11TF/dulce.jpg');
 }
 .item-team {
     background-size: cover;
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 2rem;
     width: auto;
 }
-.item-team p {
+.item-team div {
+    background: rgba(239, 235, 235, 0.6);
+    border-radius: 1.4rem;
+    margin-bottom: 3rem;
+}
+.item-team  p {
     font-size: 1.6rem;
-    font-weight: 500;
-    color: azure;
-    text-align: justify;
-    text-shadow: 2px 1px 5px #333;
+    font-weight: 400;
+    color: #3d4141;
+    text-align: justify;    
+    margin: 0;
+    padding: 0 1.2rem;
+}
+.team-quote {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #3d4141;
+    text-align: center;    
+    margin: 0;
+    padding: 2rem 0;
+}
+
+.item-team h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #3d4141;
+    text-align: center;    
+    margin: 0;
 }
 
 @media screen and (min-width: 800px) {
@@ -57,15 +79,26 @@
     }
     .item-team p {
         font-size: 2.2rem;
-        margin: 0;
-        margin-top: 8rem;
+        margin: 2rem 0;
         padding: 0 2rem;
     }    
+    .item-team h2 {
+        font-size: 2.2rem;
+        margin: 2rem 0;
+    }  
+    .team-quote {
+        font-size: 1.4rem;
+    }  
     .item-team {
-        align-items: center;
-        justify-content: center;
+        padding-bottom: 5rem;
     }
     .mrgB-60 {
         margin-bottom: 14rem;
+    }
+    .item-team div {
+        background: rgba(239, 235, 235, 0.6);
+        border-radius: 1.4rem;
+        height: 40rem;
+        margin-bottom: 0;
     }
 }
